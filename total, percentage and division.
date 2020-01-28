@@ -1,0 +1,74 @@
+#include<iostream>
+#include<stdio.h>
+using namespace std;
+int main()
+{
+ int math,phy,chem,total,roll;
+ float per;
+ char n[10];
+
+ //input the mark on the subject roll and name
+ cout<<"Enter the Name : ";
+ cin>>n;
+ cout<<"Enter The Roll :";
+ cin>>roll;
+ cout<<"Mark in Physics : ";
+ cin>>phy;
+ cout<<"Mark in Chemistry : ";
+ cin>>chem;
+ cout<<"Mark in Mathematics : ";
+ cin>>math;
+
+//Design phase
+ cout<<"--------------Output----------------------"<<endl;
+ cout<<"Name is : "<<n<<endl;
+ cout<<"Roll is : "<<roll<<endl;
+ cout<<"Mark on physics :"<<phy<<endl;
+ cout<<"Mark on chemistry :"<<chem<<endl;
+ cout<<"Mark on mathematics :"<<math<<endl;
+
+ //Execution Phase
+
+ total = phy + chem + math;
+ cout<<"Total Mark on three subjects "<<total<<endl;
+ per=(float)total/3;
+ cout<<"Total Percentage is : "<<per<<"%"<<endl;
+
+ //condition phase
+
+ if(phy>=40 && chem>=40 && math>=40)
+    {
+         if(per>=80 && per<=100)
+            cout<<"First Division "<<endl;
+         else if(per>=60 && per<80)
+            cout<<"Second Division"<<endl;
+         else if(per>=40 && per<60)
+            cout<<"Third division"<<endl;
+         else
+            cout<<"Sorry You are Fail"<<endl;
+
+    }
+else
+  cout<<"Sorry You are Fail"<<endl;
+
+}
+
+/*
+
+Test Data :
+Input the Roll Number of the student :784
+Input the Name of the Student :James
+Input the marks of Physics, Chemistry and Computer Application : 70 80 90
+
+
+Expected Output :
+Roll No : 784
+Name of Student : James
+Marks in Physics : 70
+Marks in Chemistry : 80
+Marks in Computer Application : 90
+Total Marks = 240
+Percentage = 80.00
+Division = First
+
+*/
