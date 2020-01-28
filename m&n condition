@@ -1,0 +1,48 @@
+#include<iostream>
+#include<stdio.h>
+using namespace std;
+int main()
+{
+   int m,n;
+   cout<<"Enter the input value of : ";
+   cin>>m;
+
+   if(m==0)
+
+   {
+
+    n=0;
+    cout<<"The value is n = "<<n<<endl;
+   }
+
+   else if(m<0)
+
+   {
+
+    n=-1;
+    cout<<"The value is n = "<<n<<endl;
+   }
+
+   else if(m>0)
+   {
+    n=1;
+    cout<<"The value is n = "<<n<<endl;
+
+   }
+
+    return 0;
+
+
+
+
+}
+
+/*
+
+Test Data : -5
+Expected Output :
+The value of n = -1
+
+
+
+*/
