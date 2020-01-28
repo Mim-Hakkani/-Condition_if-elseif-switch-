@@ -1,0 +1,56 @@
+#include<iostream>
+#include<stdio.h>
+using namespace std;
+int main()
+{
+ int math,phy,chem,total,t_sub;
+ //input the mark on the subject
+
+ cout<<"Mark in Physics : ";
+ cin>>phy;
+ cout<<"Mark in Chemistry : ";
+ cin>>chem;
+ cout<<"Mark in Mathematics : ";
+ cin>>math;
+
+ //total mark on the subject
+
+ total = phy + chem + math;
+ t_sub =phy +math;
+ cout<<"\nTotal Mark on three subjects "<<total<<endl;
+ cout<<"\nTotal Mark on math and physics "<<t_sub<<endl;
+
+ //condition
+
+ if(math>=65 && phy>=55 && chem>=50)
+ {
+   if(total>=180 || t_sub>=140)
+    cout<<"\nThe candidate is eligible for admission."<<endl;
+ }
+ else
+    cout<<"\nThe candidate is not eligible for admission."<<endl;
+
+
+ return 0;
+
+
+
+
+}
+/*
+------------------------------- condition -------------------------------------
+Eligibility Criteria :                                                                                        
+Marks in Maths >=65                                                                                           
+and Marks in Phy >=55                                                                                         
+and Marks in Chem>=50                                                                                         
+and Total in all three subject >=180                                                                          
+or Total in Maths and Physics >=140                                                                           
+-------------------------------------  output --------------------------------                                                                       
+Input the marks obtained in Physics :65                                                                       
+Input the marks obtained in Chemistry :51                                                                     
+Input the marks obtained in Mathematics :72                                                                   
+Total marks of Maths, Physics and Chemistry : 188                                                             
+Total marks of Maths and  Physics : 137                                                                       
+The  candidate is eligible for admission.
+
+*/
