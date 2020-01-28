@@ -1,0 +1,26 @@
+#include<iostream>
+#include<stdio.h>
+using namespace std;
+int main()
+{
+ int a,b,c;
+ cout<<"Enter thee number : ";
+ cin>>a>>b>>c;
+
+ cout<<"1st number = "<<a<<"\n2nd Number = "<<b<<"\n3rd Number = "<<c<<endl;
+
+ if(a>b && a>c)
+    cout<<"the largest number "<<a<<endl;
+
+ else if(b>a && b>c)
+    cout<<"the largest number "<<b<<endl;
+
+ else
+    cout<<"The largest Number is = "<<c<<endl;
+
+ return 0;
+
+
+
+
+}
