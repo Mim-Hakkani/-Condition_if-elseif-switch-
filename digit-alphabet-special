@@ -1,0 +1,28 @@
+#include<iostream>
+#include<stdio.h>
+using namespace std;
+int main()
+{
+  int a;
+  cout<<"Enter the character alphabet or digit";
+  cin>>a;
+
+  if(a>='0' && a<='9')
+    cout<<"This is Digit";
+
+  else if((a>='a' && a<='z')||(a>='A' && a<='Z'))
+    cout<<"This is Alphabet"<<endl;
+  else
+    cout<<"This is special symbol letter";
+
+  return 0;
+
+}
+/*
+
+Test Data :
+@
+Expected Output :
+This is a special character.
+
+*/
