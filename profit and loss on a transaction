@@ -1,0 +1,33 @@
+#include<iostream>
+#include<stdio.h>
+using namespace std;
+int main()
+{
+  int buy,sell,loss,profit;
+  cout<<"Enter the input_cost and input_sell : ";
+  cin>>buy>>sell;
+  loss=sell-buy;
+  profit = sell-buy;
+  if(sell>buy)
+  {
+
+      cout<<"You can booked your profit amount : "<<profit<<endl;
+
+  }
+  else if(sell<buy)
+    cout<<"You can booked your Loss amount : "<<loss<<endl;
+
+  if(buy==sell)
+    cout<<"No Transaction in your business"<<endl;
+
+
+  return 0;
+
+}
+/*
+
+Input Cost Price: 500                                                                                         
+Input Selling Price: 700                                                                                      
+                                                                                                      
+You can booked your profit amount : 200 
+*/
