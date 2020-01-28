@@ -1,0 +1,20 @@
+#include<iostream>
+#include<stdio.h>
+using namespace std;
+int main()
+{
+    int num;
+    cout<<"Enter The Number : ";
+    cin>>num;
+    if(num==0)
+        cout<<"This is the number of : "<<num<<endl;
+    else if(num>0)
+        cout<<"This is the Positive Number : "<<num<<endl;
+    else
+        cout<<"This is the negative Number : "<<num<<endl;
+
+    return 0;
+
+
+
+}
