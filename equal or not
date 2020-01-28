@@ -1,0 +1,36 @@
+#include<iostream>
+#include<stdio.h>
+using namespace std;
+int main()
+{
+    int num1,num2;
+    cout<<"Enter The First Number : ";
+    cin>>num1;
+
+    cout<<"Enter The Second Number : ";
+    cin>>num2;
+    cout<<"\nOutPut : \n"<<endl;
+
+    if(num1==num2)
+    {
+        cout<<"Number1 and Number2 are equal "<<endl;
+    }
+    else
+    {
+        cout<<"Number1 and Number2 are not equal"<<endl<<"Please Try Again.."<<endl;
+
+    }
+
+    return 0;
+
+
+
+}
+
+
+/*
+
+input : 15 15
+output:Number1 and Number2 are equal
+
+*/
