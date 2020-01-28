@@ -1,0 +1,29 @@
+#include<iostream>
+#include<stdio.h>
+using namespace std;
+int main()
+{
+    int year;
+    cout<<"Enter The Year : ";
+    cin>>year;
+
+    if(year%4==0 && year%400==0)
+        cout<<"This Year is a Leap Year "<<endl;
+
+    else if(year%100!=0)
+        cout<<"This Year is not a yeap year please find next year ..."<<endl;
+
+    else
+        cout<<"This Year is not a yeap year please find next year ..."<<endl;
+
+    return 0;
+
+
+
+
+}
+/*
+
+input : 2001
+output: not leap year
+*/
