@@ -1,0 +1,38 @@
+#include<iostream>
+#include<stdio.h>
+using namespace std;
+int main()
+{
+ int x,y;
+ cout<<"Please Enter The value of x y :";
+ cin>>x>>y;
+
+ if(x==0 && y==0)
+    cout<<"The coordinate point ("<<x<<" "<<y<<") lies in the origin point"<<endl;
+
+ else if(x>0 && y>0)
+   cout<<"The coordinate point ("<<x<<" "<<y<<") lies in the First quadrant"<<endl;
+
+ else if(x<0 && y>0)
+    cout<<"The coordinate point ("<<x<<" "<<y<<") lies in the Second quadrant"<<endl;
+
+ else if(x<0 && y<0)
+    cout<<"The coordinate point ("<<x<<" "<<y<<") lies in the Third quadrant"<<endl;
+
+ else if(x>0 && y<0)
+    cout<<"The coordinate point ("<<x<<" "<<y<<") lies in the Fourth quadrant"<<endl;
+
+
+ return 0;
+
+
+
+
+}
+
+/*
+Test Data : 7 9
+Expected Output :
+The coordinate point (7,9) lies in the First quadrant.
+
+*/
