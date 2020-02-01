@@ -1,0 +1,57 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+
+ int chose,a,c,h,b;
+ float area,pi;
+ cout<<"Enter the choose that you like :  ?"<<endl;
+ cout<<"1. Addition"<<endl;
+ cout<<"2. Substraction"<<endl;
+ cout<<"3. Multiplication"<<endl;
+ cout<<"4. Division"<<endl;
+ cout<<"5. Exit"<<endl;
+ cin>>chose;
+
+
+ switch(chose)
+ {
+ case 1 :
+     cout<<"Enter the two value of The Addition : ";
+     cin>>a>>b;
+     area = a+b;
+     cout<<"The Result is : "<<area<<endl;
+     break;
+
+ case 2 :
+     cout<<"Enter the two value of The Substraction : ";
+     cin>>a>>b;
+     area = a-b;
+     cout<<"The Result is : "<<area<<endl;
+     break;
+
+case 3 :
+     cout<<"Enter the two value of The Multiplication : ";
+     cin>>a>>b;
+     area = a-b;
+     cout<<"The Result is : "<<area<<endl;
+     break;
+
+case 4 :
+     cout<<"Enter the two value of The Division : ";
+     cin>>a>>b;
+     area = a/b;
+     cout<<"The Result is : "<<area<<endl;
+     break;
+
+case 5:
+    break;
+
+
+
+ default:
+    cout<<"Invalid input try again"<<endl;
+
+ }
+
+}
