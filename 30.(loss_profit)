@@ -1,0 +1,18 @@
+#include<iostream>
+#include<stdio.h>
+using namespace std;
+int main()
+{
+   int bye,sell,total;
+   cout<<"Enter the two input : ";
+   cin>>bye>>sell;
+   if(bye>sell)
+   {
+       cout<<"sorry our busseness is loss"<<endl;
+   }
+   else
+   {
+       cout<<"Our business has lot of profit"<<endl;
+   }
+
+}
