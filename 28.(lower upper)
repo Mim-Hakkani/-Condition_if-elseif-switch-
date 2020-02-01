@@ -1,0 +1,14 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+
+char a;
+cout<<"Enter the charecter ";
+cin>>a;
+if(a>='a'&& a<='z')
+    cout<<a<<" is lower case letter "<<endl;
+else
+    cout<<a<<" is the uppercase letter"<<endl;
+
+}
