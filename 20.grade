@@ -1,0 +1,35 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+
+ char grade;
+ cout<<"Please Enter The Grade : ";
+ cin>>grade;
+ grade =toupper(grade);
+
+ switch(grade)
+ {
+ case 'A' :
+    cout<<"You Have Chossen : Avarage"<<endl;
+    break;
+ case 'E' :
+    cout<<"You Have Chossen : Excelent"<<endl;
+    break;
+ case 'V' :
+    cout<<"You Have Chossen : Very Good"<<endl;
+    break;
+ case 'G' :
+    cout<<"You Have Chossen : Good"<<endl;
+    break;
+ case 'F' :
+    cout<<"You Have Chossen : Fail"<<endl;
+    break;
+
+ default:
+    cout<<"Invalid input try again";
+
+ }
+
+}
+
