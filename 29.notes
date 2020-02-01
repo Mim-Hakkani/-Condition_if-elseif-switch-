@@ -1,0 +1,31 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+
+int note,a,b,c,d,e,f,g,h,i,j,k,l,m,n;
+cin>>note;
+a=note/500;
+b=note%500;
+
+c=b/100;
+d=b%100;
+
+e=d/50;
+f=d%50;
+
+g=f/20;
+h=f%20;
+
+i=h/10;
+j=h%10;
+
+k=j/5;
+l=j%5;
+
+m=l/2;
+n=l%2;
+
+cout<<"500:"<<a<<endl<<"100:"<<c<<endl<<"50:"<<e<<endl<<"20:"<<g<<endl<<"10:"<<i<<endl<<"5:"<<k<<endl<<"2:"<<m<<endl<<"1:"<<n<<endl;
+
+}
