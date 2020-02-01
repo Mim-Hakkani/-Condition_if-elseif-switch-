@@ -1,0 +1,48 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+
+ int chose,a,c,h,b;
+ float area,pi;
+ cout<<"Enter the choose that you like :  ?"<<endl;
+ cout<<"1.Area of Reactangle "<<endl;
+ cout<<"2.Area of Circle "<<endl;
+ cout<<"3.Area of Trangle "<<endl;
+ cin>>chose;
+
+
+ switch(chose)
+ {
+ case 1 :
+     cout<<"Welcome You are Chosen Rectangle "<<endl;
+     cout<<"Give the Height And Width : ";
+     cin>>a>>b;
+     area = a*b;
+     printf("The area is : %0.2f\n",area);
+     break;
+
+ case 2 :
+     cout<<"Welcome You are Chosen Circle "<<endl;
+     cout<<"Give the Radious : ";
+     cin>>a;
+     pi=3.14159;
+     area = a*a*pi;
+     printf("The area is : %0.2f\n",area);
+     break;
+
+ case 3 :
+     cout<<"Welcome You are Chosen Traingle "<<endl;
+     cout<<"Give the base and height : ";
+     cin>>a>>b;
+     area = (a*b)/2;
+     printf("The area is : %0.2f\n",area);
+     break;
+
+
+ default:
+    cout<<"Invalid input try again"<<endl;
+
+ }
+
+}
